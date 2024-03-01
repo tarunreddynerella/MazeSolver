@@ -82,18 +82,18 @@ body, html {
   height: 100%;
   font-family: "Source Sans Pro", sans-serif;
   color: #8f9e91; /* Adjust text color as needed */
-  background-image: url('Images/background.jpg');
+  background-image: url('Images/bg3.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   filter: brightness(85%);
   z-index: -1;
   overflow-x: hidden; /* Hide horizontal overflow */
-  overflow-y: hidden; /* Allow vertical scrolling if necessary */
+  overflow-y: auto; /* Allow vertical scrolling if necessary */
 }
 
 .header {
-  color:rgb(242, 245, 244);
+  color:rgb(0, 0, 0);
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
   font-weight: bold;
 }
@@ -101,7 +101,7 @@ body, html {
 
 .header-container {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.8);
+  /* background-color: rgba(121, 143, 139, 0.8); */
   padding: 5px 10px;
   border-radius: 5px;
 }

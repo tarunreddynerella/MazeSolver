@@ -122,8 +122,8 @@ function MazeSolver() {
 				{showUploadedImage && (
 					<div className="preview">
 						<div className="header-container">
-							<h2>Selected Maze:</h2>
 							<img src={showUploadedImage} alt="Selected Maze" />
+							<h2 className="header">Selected Maze:</h2>
 						</div>
 					</div>
 				)}
@@ -131,8 +131,8 @@ function MazeSolver() {
 				{showMazeSolution && (
 					<div className="preview">
 						<div className="header-container">
-							<h2>Maze Solution:</h2>
 							<img src={showMazeSolution} alt="Selected Maze" />
+							<h2 className="header">Maze Solution:</h2>
 						</div>
 					</div>
 				)}
