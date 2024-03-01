@@ -89,7 +89,7 @@ body, html {
   filter: brightness(85%);
   z-index: -1;
   overflow-x: hidden; /* Hide horizontal overflow */
-  overflow-y: auto; /* Allow vertical scrolling if necessary */
+  overflow-y: hidden; /* Allow vertical scrolling if necessary */
 }
 
 .header {
