@@ -1,0 +1,48 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #10142c;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.navbar .btn{
+    margin: 10px 10px;
+}
+
+.navbar .menu-btn {
+    display: none;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .left-section {
+        display: none;
+    }
+    .navbar .menu-btn {
+        display: block;
+    }
+}
+
+.sidenav {
+    background-color: #10142c;
+}
+
+.sidenav a {
+    color: white !important;
+}
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+    body {
+        padding-top: 50px; 
+    }
+}

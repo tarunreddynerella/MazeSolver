@@ -1,0 +1,50 @@
+.contact-card {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    min-height: 400px;
+}
+
+.contact-card:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.materialize-textarea {
+    overflow-y: hidden;
+    resize: none;
+    height: 36px;
+    line-height: 36px;
+    padding: 0 0.75rem;
+    width: 100%;
+}
+
+.input-field input, .input-field textarea {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#Contact .container {
+    height: auto;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-contact {
+    color : white;
+}

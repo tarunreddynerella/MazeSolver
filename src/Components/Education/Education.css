@@ -1,0 +1,59 @@
+.education-container {
+	margin: 0px 0px !important;
+}
+
+.education-card {
+	background-color: transparent;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	cursor: pointer;
+	min-width: 100%;
+}
+
+.education-card:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-card .card-content {
+	padding: 10px;
+}
+
+.card-action {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.05);
+	opacity: 0;
+}
+
+.education-card:hover .card-action {
+	max-height: 200px;
+	opacity: 1;
+}
+
+.card {
+	min-width: 100%;
+}
+.card-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: white;
+}
+
+.card-content p {
+	color: #a8b2d1;
+	font-weight: 600;
+}
+
+.edu-description {
+	font-weight: 600;
+}
+
+.education-card:hover .card-title {
+	color: #59e2c5;
+}

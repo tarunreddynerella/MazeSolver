@@ -1,0 +1,117 @@
+.App {
+	text-align: center;
+	padding: 20px;
+  }
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	background-color: #10142c;
+}
+
+p {
+	/* color: #8892b0; */
+	color: #a8b2d1;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.left-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 70vh;
+}
+
+.left-section h5 {
+	color: #8892b0;
+}
+.header {
+	font-weight: bold;
+	color: white;
+	text-align: justify;
+}
+
+.table-of-contents {
+	text-align: justify;
+}
+
+.table-of-contents h6 {
+	color: #a8b2d1;
+	transition: font-size 0.3s, color 0.3s;
+}
+
+.table-of-contents h6:hover,
+.table-of-contents a:hover {
+	font-size: 35px;
+	color: white;
+	border-left: none !important;
+}
+
+.table-of-contents .active h6,
+.table-of-contents a.active {
+	font-size: 35px !important;
+	color: white;
+	border-left: none !important;
+}
+
+.right-section section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.custom-card {
+	background-color: transparent;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	border: 1px solid transparent;
+	min-height: 50px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	min-width: 100%;
+}
+
+.custom-card:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.about {
+	min-height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.about.custom-card {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+#Skills,
+#Education,
+#Projects,
+#Experience,
+#Contact {
+	margin-bottom: 30vh;
+}
+
+#Contact.custom-card {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+
+.fixed-action-btn {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+}

@@ -1,0 +1,55 @@
+.projects-container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+
+
+.project-box {
+	background-color: transparent;
+	transition: background-color 0.3s, box-shadow 0.3s;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.project-box:hover {
+	background-color: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-box .card-content {
+	padding: 10px;
+}
+
+.card-action {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.5s ease-in-out, opacity 0.3s ease-in-out; 
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.05);
+	opacity: 0; 
+}
+
+.project-box:hover .card-action {
+	max-height: 200px;
+	opacity: 1;
+}
+
+.project-title {
+	color: white;
+	font-size: 1.5rem; 
+}
+
+.project-date,
+.project-description {
+	color: #a8b2d1;
+	font-weight: 600;
+}
+
+.project-box:hover .project-title {
+	color: #59e2c5;
+}

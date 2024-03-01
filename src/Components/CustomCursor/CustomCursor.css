@@ -1,0 +1,23 @@
+.cursor-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	z-index: 1;
+}
+
+.cursor {
+	border-radius: 50%;
+	position: absolute;
+	pointer-events: none;
+}
+
+.ripple {
+	border-radius: 50%;
+	position: absolute;
+	background-color: #111c33;
+	mix-blend-mode: screen;
+	opacity: 0.1;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 0 1500px 5px #184868;
+}

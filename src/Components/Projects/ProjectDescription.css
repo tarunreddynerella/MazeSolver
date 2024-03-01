@@ -1,0 +1,73 @@
+.project-name{
+    padding-top: 15%;
+	color: #a8b2d1;
+    
+}
+.project-intro{
+    padding-top: 5%;
+	color: #a8b2d1;
+
+}
+.project-title{
+	color: #a8b2d1;
+
+}
+.PD-header {
+    height:80vh;
+
+}
+
+.project-img{
+    border: 2px solid whitesmoke;
+}
+
+.project-desc{
+    word-spacing: 5px;
+    line-height: 1.5;
+	color: #a8b2d1;
+
+}
+
+.NoSkillImage{
+	padding-top: 50%;
+}
+
+.tool-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+  
+
+  .tool-name {
+    font-size: 16px; 
+    margin-right: 8px;
+    align-items: center;
+    vertical-align: middle;
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #CCD6F6;
+    text-align: justify;
+
+}
+
+.tool-icon {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 8px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.tool-icon, .tool-name {
+    flex: 1 1 calc(10% - 10px); /* Take up one-third of the container width, minus some margin for spacing */
+    margin: 5px; /* Add some margin for spacing */
+    text-align: center; /* Center text for .tool-name */
+}
